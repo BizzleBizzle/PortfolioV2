@@ -1,0 +1,175 @@
+body {
+background-color: black;
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+
+  margin: 20px auto 0 auto;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  color: #66BFBF;
+}
+
+h2 {
+font-family: 'Source Code Pro', monospace;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #66BFBF;
+  padding-bottom: 10px;
+  margin: 10px ;
+}
+
+h3 {
+  font-family: 'Source Code Pro', monospace;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+}
+
+p {
+  line-height: 2;
+  font-family: 'Source Code Pro', monospace;
+  color: white;
+}
+
+hr {
+  border: dotted 6px;
+  Color: lightgrey;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto
+
+}
+
+/* nav bar */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  font-family: 'Source Code Pro', monospace;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+/* end of nav bar */
+
+.top-container {
+  background-color: black;
+  position: relative;
+  padding-top: 100px;
+}
+
+
+
+.shopify {
+  text-decoration: underline;
+}
+
+.eye  {
+  width: 100%;
+max-width: 500px;
+height: auto;
+
+}
+
+.bottom-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.top-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+}
+
+.coding {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.illustration {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.BUTTON_JHR {
+   background: #66BFBF;
+   background-image: -webkit-linear-gradient(top, #66BFBF, #318484);
+   background-image: -moz-linear-gradient(top, #66BFBF, #318484);
+   background-image: -ms-linear-gradient(top, #66BFBF, #318484);
+   background-image: -o-linear-gradient(top, #66BFBF, #318484);
+   background-image: -webkit-gradient(to bottom, #66BFBF, #318484);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 10px;
+   color: #FFFFFF;
+   font-family: Helvetica;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 10px;
+   margin-bottom: 20px;
+   border: solid #66BFBF 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_JHR:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
